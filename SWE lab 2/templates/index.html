@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: lightblue;
+        }
+        h1 {
+            color: white;
+            text-align: center;
+        }
+    </style>
+    <h1>forms for user input</h1>
+</head>
+<body>
+    <form action="/text" method="post">
+        <p>your name</p>
+        <input type="text" name="input">
+        <button>Ok</button>
+    </form>
+    {% if name %}
+        <p>Your name is: {{ name }}</p>
+    {% endif %}
+</body>
+</html>
