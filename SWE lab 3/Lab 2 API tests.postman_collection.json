@@ -1,0 +1,185 @@
+{
+	"info": {
+		"_postman_id": "693061ab-f201-499e-84d0-d5daed446349",
+		"name": "Lab 2 API tests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39081685"
+	},
+	"item": [
+		{
+			"name": "Get All Todos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/todos?Authorization=Bearer {{TOKEN}}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"todos"
+					],
+					"query": [
+						{
+							"key": "Authorization",
+							"value": "Bearer {{TOKEN}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Todo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/todos?Authorization=Bearer {{TOKEN}}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"todos"
+					],
+					"query": [
+						{
+							"key": "Authorization",
+							"value": "Bearer {{TOKEN}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Invalid Input",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/todos?Authorization=Bearer {{TOKEN}}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"todos"
+					],
+					"query": [
+						{
+							"key": "Authorization",
+							"value": "Bearer {{TOKEN}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Todo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/todos?Authorization=Bearer {{TOKEN}}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"todos"
+					],
+					"query": [
+						{
+							"key": "Authorization",
+							"value": "Bearer {{TOKEN}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Todo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/todos?Authorization=Bearer {{TOKEN}}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"todos"
+					],
+					"query": [
+						{
+							"key": "Authorization",
+							"value": "Bearer {{TOKEN}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Invalid update",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/todos?Authorization=Bearer {{TOKEN}}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"todos"
+					],
+					"query": [
+						{
+							"key": "Authorization",
+							"value": "Bearer {{TOKEN}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Invalid del",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/todos?Authorization=Bearer {{TOKEN}}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"todos"
+					],
+					"query": [
+						{
+							"key": "Authorization",
+							"value": "Bearer {{TOKEN}}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
